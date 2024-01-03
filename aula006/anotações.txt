@@ -1,0 +1,39 @@
+Como mudar string para number:
+Number.parseInt(n): para numeros inteiros.
+Number.parseFloat(n): para numeros decimais.
+Number: para ambos.
+-------------------------------------------------------
+Como mudar Number para String:
+String(n) ou n.String().
+-------------------------------------------------------
+Como usar template string:
+Ex: `O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+-------------------------------------------------------
+extras:
+var s = 'JavaScript'
+'Eu estou aprendendo s' // não faz interpolação
+'Eu estou aprendendo' + s  //usa concatenação
+`Eu estou aprendendo ${s}` // usa tamplate string
+--
+s.length // wuantos caracteres a string tem
+s.toUpperCase() // tudo para 'MAIÚSCULAS'
+s.toLowerCase() // tudo para 'minúsculas'
+-------------------------------------------------------
+Formatação de números:
+var n1 = 1543.5
+n1.toFixed(quantidade de casas decimais)
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+-------------------------------------------------------------------
+Operadores aritimeticos:
++ // soma
+- // subtração
+* // multiplicação
+/ // divisão
+% // sobra da divisão
+** // exponenciação
+----------------------------------------------------------------------------
+Ordem de precedência:
+()
+**
+* / %
++ -
